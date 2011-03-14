@@ -1,0 +1,10 @@
+.bundle
+db/*.sqlite3
+database.yml
+log/*.log
+tmp/
+*.log
+/tmp/
+doc/
+*.swp
+*~
