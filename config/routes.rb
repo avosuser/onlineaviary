@@ -1,4 +1,9 @@
 Onlineaviary::Application.routes.draw do
+#  get "home/home"
+   match '/contact',	:to => 'home#contact'
+   #match '/', :to => 'home#home'
+   root 		:to =>'home#contact'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
